@@ -4,7 +4,7 @@ public class Greeter {
 
     public String greet(String name) {
         if(name.isEmpty()){
-            name = "world";
+            name = "GitHub Actions";
         }
         return "Hello, " + name + "!";
     }
